@@ -12,7 +12,7 @@ sudo lt-range.py 200
 It is also possible to change the steam launch options for games so that you don't need to run the above command every time. Right-click the game in the steam library view and choose properties, then click 'set launch options...' and enter the following:
 
 ```
-sudo python2 /usr/local/bin/lt-range .py 200; %command%
+sudo python2 /usr/local/bin/lt-range.py 200; %command%
 ```
 
 If you keep lt-range.py in another location, change the path above.
