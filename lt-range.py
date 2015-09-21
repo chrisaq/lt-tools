@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
-from os import walk
 import sys
+from os import walk
 from re import match
 
 if len(sys.argv) < 2:
