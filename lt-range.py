@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 from __future__ import print_function
 
-from os import walk
 import sys
+from os import walk
 from re import match
 
 if len(sys.argv) < 2:
-    sys.exit('Need range parameter, 200-900')
+    sys.exit('Need range parameter, 40-900')
 
-if not 199 < int(sys.argv[1]) < 901:
-    sys.exit('Out of range, 200-900')
+if not 39 < int(sys.argv[1]) < 901:
+    sys.exit('Out of range, 40-900')
 
 fsroot = '/sys/bus/hid/drivers/logitech'
 try:
